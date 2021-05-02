@@ -1,6 +1,6 @@
 import java.util.Scanner;
 class bankinfo {
-    int accountbal = 10;
+    int accountbal = 0;
 
     void deposite() {
        System.out.println("Enter the amount to be Deposited: ");
