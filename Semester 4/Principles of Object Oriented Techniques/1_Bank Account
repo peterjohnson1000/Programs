@@ -1,3 +1,5 @@
+// Develop a program in Java to display the details of bank account using Class.
+
 import java.util.Scanner;
 class bankinfo {
     int accountbal = 0;
