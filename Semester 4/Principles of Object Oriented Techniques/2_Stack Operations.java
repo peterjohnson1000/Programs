@@ -1,3 +1,5 @@
+// Develop a program in Java to implement Stack operations using Class.
+
 import java.util.Scanner;
 class stackinfo {
     int top = -1;
