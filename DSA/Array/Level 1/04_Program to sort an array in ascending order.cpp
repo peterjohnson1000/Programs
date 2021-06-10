@@ -16,10 +16,6 @@ void bubbleSort(int arr[], int n)
                 arr[i] = arr[j];
                 arr[j] = temp;
             }
-            else
-            {
-                break;
-            }
         }
     }
     for (int i = 0; i < n; i++)
@@ -31,7 +27,7 @@ void bubbleSort(int arr[], int n)
 
 int main()
 {
-    int arr[] = {7, 0, 2};
+    int arr[] = {5, 4, 3, 2, 1};
     int n = sizeof(arr) / sizeof(arr[0]);
     bubbleSort(arr, n);
 
